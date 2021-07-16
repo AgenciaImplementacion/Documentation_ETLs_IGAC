@@ -19,7 +19,7 @@ jobs:
       run: |
         git clone https://github.com/SwissTierrasColombia/Documentation_ETLs_IGAC.git --branch gitpage --single-branch gitpage
         rm -r gitpage/*
-        cp -r source/_build/* gitpage/
+        cp -r docs/source/_build/* gitpage/
         cd gitpage
         touch .nojekyll
         git config --local user.email "agenciaimplementacion@gmail.com"
