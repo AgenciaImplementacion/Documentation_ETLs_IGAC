@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Bienvenido a la documentación del Sistema de Transición &mdash; documentación de Documentación Sistema de Transición - v2.23.38</title>
+  <title>Bienvenido a la documentación de los ETLs IGAC! &mdash; documentación de Documentation_ETLs_IGAC - V0.0.1</title>
   
 
   
@@ -34,10 +34,9 @@
   
   <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-  <link rel="stylesheet" href="_static/mystyle.css" type="text/css" />
     <link rel="index" title="Índice" href="genindex.html" />
     <link rel="search" title="Búsqueda" href="search.html" />
-    <link rel="next" title="Manual de usuario" href="user-manual-doc.html" /> 
+    <link rel="next" title="ETL Cobol" href="ETL Cobol.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -51,7 +50,7 @@
           
 
           
-            <a href="#" class="icon icon-home"> Documentación Sistema de Transición
+            <a href="#" class="icon icon-home"> Documentation_ETLs_IGAC
           
 
           
@@ -83,8 +82,8 @@
             
               <p class="caption"><span class="caption-text">Contenido:</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="user-manual-doc.html">Manual de usuario</a></li>
-<li class="toctree-l1"><a class="reference internal" href="technical-doc.html">Documentación técnica</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ETL Cobol.html">ETL Cobol</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ETL SNC.html">ETL SNC</a></li>
 </ul>
 
             
@@ -99,7 +98,7 @@
       <nav class="wy-nav-top" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="#">Documentación Sistema de Transición</a>
+          <a href="#">Documentation_ETLs_IGAC</a>
         
       </nav>
 
@@ -130,7 +129,7 @@
     
       <li><a href="#">Docs</a> &raquo;</li>
         
-      <li>Bienvenido a la documentación del Sistema de Transición</li>
+      <li>Bienvenido a la documentación de los ETLs IGAC!</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -149,50 +148,35 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="bienvenido-a-la-documentacion-del-sistema-de-transicion">
-<h1>Bienvenido a la documentación del Sistema de Transición<a class="headerlink" href="#bienvenido-a-la-documentacion-del-sistema-de-transicion" title="Enlazar permanentemente con este título">¶</a></h1>
-<p>Este documento tiene como objetivo proporcionar la facilidad de usar, estudiar, compartir y mejorar el Sistema de Transición con todos los microservicios asociados a él.</p>
-<p>El Sistema de Transición se concibe como un Ecosistema de Solución que permite gestionar la información necesaria para realizar el barrido predial por parte de las entidades y actores involucrados en el proceso del barrido predial masivo de manera transitoria mientras los sistemas misionales están en proceso de ajustes para responder a las nuevas necesidades. En este sentido el ST busca apoyar a los gestores catastrales en el flujo de información con los operadores y demás actores.</p>
+  <div class="section" id="bienvenido-a-la-documentacion-de-los-etls-igac">
+<h1>Bienvenido a la documentación de los ETLs IGAC!<a class="headerlink" href="#bienvenido-a-la-documentacion-de-los-etls-igac" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>Este documento tiene como objetivo proporcionar la facilidad de usar, estudiar, compartir y mejorar los ETL del sistema COBOL
+y el Sistema Nacional Catastral (IGAC), para esto se divide el documento en dos partes fundamentales, la primera, hace referencia
+a la ejecución de cada uno de los ETL desarrollados y en la segunda se encuentra una descripción de los aspectos técnicos de la
+estructura del modelo.</p>
+<p>Los ETL del sistema de COBOL y el Sistema Nacional Catastral fueron desarrollados en el software QGIS debido a su facilidad para el
+manejo de diferentes fuentes de información y además de la posibilidad de integrar la información geográfica con la información alfanumérica.
+Para la generación de estos ETL fue necesario el uso de los diferentes insumos proporcionados por cada uno de los sistemas al interior de IGAC,</p>
+<blockquote>
+<div><p>los cuales se mencionan al comienzo de cada ETL.</p>
+</div></blockquote>
 <div class="toctree-wrapper compound">
 <p class="caption"><span class="caption-text">Contenido:</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="user-manual-doc.html">Manual de usuario</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="user-manual-doc/0-introduccion.html">Introducción</a></li>
-<li class="toctree-l2"><a class="reference internal" href="user-manual-doc/1-descripcion-st.html">Descripción del sistema de transición</a></li>
-<li class="toctree-l2"><a class="reference internal" href="user-manual-doc/2-entidades-actores.html">Entidades y/o actores del sistema</a></li>
-<li class="toctree-l2"><a class="reference internal" href="user-manual-doc/3-gestion-usuarios.html">Administración de usuarios</a></li>
-<li class="toctree-l2"><a class="reference internal" href="user-manual-doc/4-funcionalidades.html">Funcionalidades</a></li>
-<li class="toctree-l2"><a class="reference internal" href="user-manual-doc/5-descripcion-interfaz.html">Descripción de la interfaz</a></li>
-<li class="toctree-l2"><a class="reference internal" href="user-manual-doc/6-rol-super-admin-sistema.html">Rol: Súper Administrador Del Sistema</a></li>
-<li class="toctree-l2"><a class="reference internal" href="user-manual-doc/7-rol-admin-sistema.html">Rol: Administrador Del Sistema</a></li>
-<li class="toctree-l2"><a class="reference internal" href="user-manual-doc/8-rol-gestor-catastral.html">Rol: Gestor Catastral</a></li>
-<li class="toctree-l2"><a class="reference internal" href="user-manual-doc/9-rol-operador.html">Rol: Operador</a></li>
-<li class="toctree-l2"><a class="reference internal" href="user-manual-doc/10-rol-proveedor-insumos.html">Rol: Proveedor de Insumos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ETL Cobol.html">ETL Cobol</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="ETL_Cobol/supplies.html">Insumos necesarios para ejecutar el ETL</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ETL_Cobol/Structure.html">Estructura de los insumos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ETL_Cobol/Process.html">Procedimiento para ejecutar el ETL</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ETL_Cobol/Model.html">Estructura del modelo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ETL_Cobol/Repository.html">Estructura del ETL SNC en repositorio</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="technical-doc.html">Documentación técnica</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="technical-doc/index.html">Manual de despliegue ST (docker)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="technical-doc/version.html">Versionamiento</a></li>
-<li class="toctree-l2"><a class="reference internal" href="technical-doc/users.html">Jerarquía de Usuarios</a></li>
-<li class="toctree-l2"><a class="reference internal" href="technical-doc/databases.html">Base de datos</a></li>
-<li class="toctree-l2"><a class="reference internal" href="technical-doc/st-configuration-properties.html">Repositorio de Configuración</a></li>
-<li class="toctree-l2"><a class="reference internal" href="technical-doc/general-settings.html">Configuraciones Generales</a></li>
-<li class="toctree-l2"><a class="reference internal" href="technical-doc/st-rabbitmq.html">RabbitMQ</a></li>
-<li class="toctree-l2"><a class="reference internal" href="technical-doc/st-config-server.html">Microservicio st-config-server</a></li>
-<li class="toctree-l2"><a class="reference internal" href="technical-doc/st-eureka-server.html">Microservicio st-eureka-server</a></li>
-<li class="toctree-l2"><a class="reference internal" href="technical-doc/st-zuul-server.html">Microservicio st-zuul-server</a></li>
-<li class="toctree-l2"><a class="reference internal" href="technical-doc/st-microservice-oauth.html">Microservicio st-microservice-oauth</a></li>
-<li class="toctree-l2"><a class="reference internal" href="technical-doc/st-microservice-administration.html">Microservicio st-microservice-administration</a></li>
-<li class="toctree-l2"><a class="reference internal" href="technical-doc/st-microservice-managers.html">Microservicio st-microservice-managers</a></li>
-<li class="toctree-l2"><a class="reference internal" href="technical-doc/st-microservice-providers.html">Microservicio st-microservice-providers</a></li>
-<li class="toctree-l2"><a class="reference internal" href="technical-doc/st-microservice-operators.html">Microservicio st-microservice-operators</a></li>
-<li class="toctree-l2"><a class="reference internal" href="technical-doc/st-microservice-supplies.html">Microservicio st-microservice-supplies</a></li>
-<li class="toctree-l2"><a class="reference internal" href="technical-doc/st-microservice-tasks.html">Microservicio st-microservice-tasks</a></li>
-<li class="toctree-l2"><a class="reference internal" href="technical-doc/st-microservice-workspaces.html">Microservicio st-microservice-workspaces</a></li>
-<li class="toctree-l2"><a class="reference internal" href="technical-doc/st-microservice-ili.html">Microservicio st-microservice-ili</a></li>
-<li class="toctree-l2"><a class="reference internal" href="technical-doc/st-microservice-notifier.html">Microservicio st-microservice-notifier</a></li>
-<li class="toctree-l2"><a class="reference internal" href="technical-doc/st-microservice-reports.html">Microservicio st-microservice-reports</a></li>
-<li class="toctree-l2"><a class="reference internal" href="technical-doc/st-site-web.html">Servidor st-site-web</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ETL SNC.html">ETL SNC</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="ETL_SNC/supplies.html">Insumos necesarios para ejecutar el ETL</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ETL_SNC/Structure.html">Estructura de los insumos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ETL_SNC/Process.html">Procedimiento para ejecutar el ETL</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ETL_SNC/Model.html">Estructura del modelo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ETL_SNC/Repository.html">Estructura del ETL SNC en repositorio</a></li>
 </ul>
 </li>
 </ul>
@@ -207,7 +191,7 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="user-manual-doc.html" class="btn btn-neutral float-right" title="Manual de usuario" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="ETL Cobol.html" class="btn btn-neutral float-right" title="ETL Cobol" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
     </div>
@@ -217,7 +201,7 @@
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2020, SwissTierras Colombia
+        &copy; Copyright 2020, Agencia de implementación
 
     </p>
   </div>
