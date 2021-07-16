@@ -24,7 +24,7 @@ author = 'Agencia de implementación'
 project_name = 'Documentación ETLs IGAC'
 
 # The full version, including alpha/beta/rc tags
-release = '0.0.1'
+release = 'V0.0.1'
 
 
 # -- General configuration ---------------------------------------------------
